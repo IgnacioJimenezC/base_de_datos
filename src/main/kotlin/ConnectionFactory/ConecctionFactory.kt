@@ -5,8 +5,8 @@ import java.sql.SQLException
 
 object ConecctionFactory {
     private const val URL = "jdbc:h2:./default"
-    private const val USERNAME = "usuario"
-    private const val PASSWORD = "pestillo"
+    private const val USERNAME = "user"
+    private const val PASSWORD = "user"
 
     fun conectarse(): Connection?{
         var conexion : Connection? = null
