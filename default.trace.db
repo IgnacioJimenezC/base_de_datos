@@ -203,3 +203,18 @@ java.sql.SQLClientInfoException: Client info name 'ApplicationName' not supporte
 2023-04-24 21:56:26 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRODUCT" not found; SQL statement:
 INSERT INTO product (id, name,price,description,brand,category ) VALUES (?, ?, ?, ?, ?, ?) [42102-210]
+2023-05-02 12:15:31 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Metodo permitido unicamente en un query. Use execute ó executeUpdate en lugar de executeQuery
+Method is only allowed for a query. Use execute or executeUpdate instead of executeQuery; SQL statement:
+INSERT INTO products (id, name,price,description,brand,category ) VALUES (?, ?, ?, ?, ?, ?) [90002-210]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:573)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:496)
+	at org.h2.message.DbException.get(DbException.java:227)
+	at org.h2.message.DbException.get(DbException.java:203)
+	at org.h2.message.DbException.get(DbException.java:192)
+	at org.h2.command.Prepared.query(Prepared.java:235)
+	at org.h2.command.CommandContainer.query(CommandContainer.java:256)
+	at org.h2.command.Command.executeQuery(Command.java:190)
+	at org.h2.jdbc.JdbcPreparedStatement.executeQuery(JdbcPreparedStatement.java:128)
+	at DAO.ProductDAOH2.create(ProductDAOH2.kt:19)
+	at MainKt.main(Main.kt:16)

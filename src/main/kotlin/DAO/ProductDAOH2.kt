@@ -16,6 +16,7 @@ class ProductDAOH2(private var dataSource:DataSource):ProductDAO {
                 stmt.setString(4, product.description)
                 stmt.setString(5,product.brand)
                 stmt.setString(6,product.category)
+                stmt.executeUpdate()
                 product
             }
         }

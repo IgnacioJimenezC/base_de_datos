@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="256dc7cc-35b5-4514-a4f1-14570acf7670" name="Changes" comment="conexion a la base de datos hecha">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0b9677f1-cfae-48a9-936c-45b8c54da5d6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0b9677f1-cfae-48a9-936c-45b8c54da5d6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ConnectionFactory/ConecctionFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ConnectionFactory/ConecctionFactory.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/default.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/default.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/default.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/default.trace.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/DAO/ProductDAOH2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/DAO/ProductDAOH2.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +50,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/usuariom/base_de_datos",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -84,6 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1682343672775</updated>
       <workItem from="1682355710164" duration="10383000" />
+      <workItem from="1683021389343" duration="2118000" />
     </task>
     <task id="LOCAL-00001" summary="conexion a la base de datos hecha">
       <created>1682356895212</created>
